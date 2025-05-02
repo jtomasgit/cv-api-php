@@ -1,0 +1,29 @@
+# Entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Carpeta de dependencias de Composer
+/vendor/
+
+# Logs y archivos generados
+*.log
+# *.sql  <- Comentado o eliminado si tienes SQL versionado en sql/
+*.sqlite
+*.zip
+*.tar.gz
+
+# Configuración local del IDE
+/.idea/
+/.vscode/
+/.php_cs.cache
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+__pycache__
+*.swp
+*.tmp
+
